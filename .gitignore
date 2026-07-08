@@ -1,0 +1,9 @@
+# Fichiers compiles Java
+out/
+*.class
+
+# Fichiers systeme / IDE
+.vscode/
+.idea/
+*.iml
+.DS_Store
