@@ -72,7 +72,7 @@ public class MainView {
         int kilometrage = lireEntier("Kilometrage : ");
         double tarif = lireDouble("Tarif journalier (EUR) : ");
 
-        // On demande au service d'ajouter (c'est lui qui verifie les regles).
+       
         boolean ajoute = service.ajouterVehicule(marque, modele, kilometrage, tarif);
 
         if (ajoute) {
@@ -87,7 +87,7 @@ public class MainView {
 
         List<Vehicule> flotte = service.getFlotte();
 
-        // RG2 : la View verifie si la flotte est vide.
+      
         if (flotte.isEmpty()) {
             System.out.println("Le parc automobile est actuellement vide.");
         } else {
