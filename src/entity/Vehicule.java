@@ -2,11 +2,11 @@ package entity;
 
 public class Vehicule {
 
-    private int id;                 // identifiant unique
-    private String marque;          // ex : Toyota
-    private String modele;          // ex : Corolla
-    private int kilometrage;        // nombre de km
-    private double tarifJournalier; // prix de location par jour (reel)
+    private int id;                
+    private String marque;         
+    private String modele;         
+    private int kilometrage;        
+    private double tarifJournalier; 
 
     public Vehicule(int id, String marque, String modele, int kilometrage, double tarifJournalier) {
         this.id = id;
